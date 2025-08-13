@@ -5,9 +5,9 @@ CHUNK_SIZE = 200             # max tracks per playlist, you probably don't need 
 NEW_PLAYLIST_PREFIX = "Split Playlist Part" # name of the playlists that get created.
 
 # CONFIG — CHANGE THESE!
-SPOTIFY_USERNAME = "YOUR USER ID" # refer to the readme for more info
-SPOTIFY_CLIENT_ID = "PLACEHOLDER_CLIENT_ID" # refer to the readme for more info
-SPOTIFY_CLIENT_SECRET = "PLACEHOLDER_CLIENT_SECRET" # refer to the readme for more info
+SPOTIFY_USERNAME = "ketchup" # refer to step 3.1 of the readme for more info
+SPOTIFY_CLIENT_ID = "mayonnaise" # refer to step 3.2 of the readme for more info
+SPOTIFY_CLIENT_SECRET = "garlicSauce" # refer to step 3.3 of the readme for more info
 CSV_FILE = "playlist.csv"   # path to your Exportify CSV, this only works if the script and file are in the same location!
 
 # DON'T CHANGE ANYTHING PAST THIS POINT!
