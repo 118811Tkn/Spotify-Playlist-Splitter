@@ -19,15 +19,15 @@ Open the script in the text editor of your preference, could be notepad, or more
 
 3.1 [line 8] To find your spotify user id go to [open.spotify.com](https://open.spotify.com) and log in if you havent already, then press your profile picture in the top right, and press profile, the page you're on has your user id in the address bar, it should look something like "spotify.com/user/[YOURUSERID]", copy [YOURUSERID] into your clipboard, for the purposes of this guide i'll pretend my user id is "ketchup", go back into the script and replace "ketchup" with the ID you copied, make sure the ID you paste in is surrounded by " otherwise you'll face a syntax error!
 
-3.2 [line 9] The client ID is a string of letters and numbers that you should'nt share with anyone, cooy it from the developer website, lets say mine is "mayonnaise", similarly to step 3.1, just replace "mayonnaise" with your client id
+3.2 [line 9] The client ID is a string of letters and numbers that you shouldn't share with anyone, cooy it from the developer website, lets say mine is "mayonnaise", similarly to step 3.1, just replace "mayonnaise" with your client id
 
 3.3 [line 10] The client secret is as the name suggests, a secret, do not even think about sharing this one with anyone! On the developer website there should be a view client secret button, press it and copy it. Lets say mine is "garlicSauce", similarly to step 3.1, just replace "garlicSauce" with your client secret, and i feel like i have to repeat this, DO NOT SHARE. if someone gets access to this then they can control your whole account. (of course this script doesnt do that, i'm not evil.)
 
 3.4 [line 11] make sure that your CSV file is in the same folder as the script, change this line to the name of your file, or rename your CSV to "playlist.csv", pick your poison. 
 
-4. Run the script. Open a command prompt in the folder the script is in by right clicking on an empty space and pressing open command prompt here (or similar) and write `py spotify_splitter.py` If you're not on windows then open your equivalent of the command prompt, i personally only tested this on macOS, but i don't see a reaso this wouldn't
+4. Run the script. Open a command prompt in the folder the script is in by right clicking on an empty space and pressing open command prompt here (or similar) and write `py spotify_splitter.py` If you're not on windows then open your equivalent of the command prompt, I personally only tested this on macOS, but i don't see a reaso this wouldn't
 work on windows/linux. 
 
-6. You should see `Found [number] of tracks in CSV`, if it says 0 then please open an issue and i'll try to help you. Otherwise if it says the correct ammount your browser should appear with a spotify login prompt, log in and oress authorise or similar, back in the command prompt you should see a bunch of fast text, if its moving at all then it's working, once it says done open your spotify app and you should have several new playlists with the names "Split Playlist Part [number]". 
+6. You should see `Found [number] of tracks in CSV`, if it says 0 then please open an issue and i'll try to help you. Otherwise if it says the correct ammount your browser should appear with a spotify login prompt, log in and press authorise or similar, back in the command prompt you should see a bunch of fast text, if its moving at all then it's working, once it says done open your spotify app and you should have several new playlists with the names "Split Playlist Part [number]". 
 
 7. Open SongShift or any app and get to transfering!
